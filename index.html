@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Robot knows your age and grade</title>
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <!-- ================ icon ============= -->   
+    <div class="container up"> 
+      <img src="http://rameshsyangtan.com.np/backup/robot-knows-ur-age/robot.gif" alt="Robot knows your age and grade" class="pull-left img-responsive">
+      <img src="http://rameshsyangtan.com.np/backup/robot-knows-ur-age/4.jpg" alt="Robot knows your age and grade" class="pull-right img-responsive">
+    </div>
+    <!-- ================= Content ================== -->
+    <div class="container down">
+      <!-- ============ First part ================ -->
+      <div class="first-show">
+        <h1>few things you will need to do: </h1>
+        <ul>
+          <li>Math - Addition, Subtraction, ....</li>
+          <li>Follow Instructions</li>
+        </ul>
+        <b>Ready ? </b>
+        <button class="btn btn-lg btn-success get-started">Get Started</button>
+      </div>
+      <!-- =========== Ready part =========== -->
+      <div class="second-show">
+        <div> Think Your Age ! </div>
+        <button class='btn btn-lg btn-success go'>Go</button>
+      </div>
+      <!-- ========== Instructions part =============-->
+      <div class="third-show"> 
+        <div class='step-count'>Step : <span>1</span> of 8</div>
+        <div class='instructions'><span>1</span>.&nbsp;<div>Multiply your age with 20</div>  </div>
+        <div class='hint'> Hint : <span>Age * 20</span></div>
+        <button class='btn btn-lg btn-success next'>Next</button>
+      </div>
+      <!-- ================= Input part =============== -->
+      <div class="final-show">
+        <h3 style="text-align: right;">Final Step </h3>
+        <div style="text-align: center; font-size: 36px;">Now input your final answer below : </div> 
+        <input type="text" placeholder="Answer...." id="ans" class="form-control ">
+        <div class="warning"></div>
+        <button type="button" id="find-out" class="btn btn-success bt-lg ">Find Out ! </button>
+      </div>
+      <!-- ================ Guidelines and warning part ========== -->
+      <div class="wrong">
+        <h1 class="alert alert-danger"> Some thing went wrong !!!</h1>
+        <img src="http://rameshsyangtan.com.np/backup/robot-knows-ur-age/5.gif" alt="robot knows your age and grade" class="img-responsive pull-left">
+        <strong>See Guidelines : </strong>
+        <ol>
+          <li>It's not a Magic, It's a Math. So, follow the instructions gently.</li>
+          <li>Age should be below 100 (non-decimal - positive).</li>
+          <li>Grade should be in number (non-decimal - positive).</li>
+        </ol>
+        <a href="#" id="try-again" class="btn btn-success btn-lg get-started">Try Again</a>
+      </div>
+      <!-- ============= Information part ============ -->
+      <div class="info">        
+        <h1>Hi</h1>
+        <img src="http://rameshsyangtan.com.np/backup/robot-knows-ur-age/6.jpg" alt="Robot knows your age and grade" class="pull-left img-responsive">
+        <strong>Here's your info : </strong>
+        <div>Age : <span class="age"></span></div>
+        <div>Grade : <span class="grade"></span></div>
+        <h3 class="guidelines">Wrong ? <a href="#"  class="btn btn-link see-guide">See guidelines</a></h3>
+        <i>Developed by <a href="http://www.rameshsyangtan.com.np">Ramesh Syangtan</a></i>
+      </div>
+    </div>
+  </main>  
+  <!-- ============== Processing part ============== -->
+  <div class="loading">
+    <img src="http://rameshsyangtan.com.np/backup/robot-knows-ur-age/processing.gif" alt="Robot knows your age and grade" class="img-responsive">
+  </div>
+  <!-- ======= Coded by Ramesh syangtan ============== -->
+</body>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="index.js"></script>
+</body>
+</html>
