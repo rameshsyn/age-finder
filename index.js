@@ -13,6 +13,7 @@ $(document).ready(function() {
 	
 	$("#try-again").click(function(){
 		$(this).attr("href",window.location.href);
+		$(".wrong").hide();
 	});
 	// Generates one random operater between + and -
 	function GranOpOne() {				
