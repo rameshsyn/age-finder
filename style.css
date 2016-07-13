@@ -4,7 +4,7 @@ html, main {
 	margin: 0;
 }
 html {
-	background: url(http://rameshsyangtan.com.np/backup/robot-knows-ur-age/bg.jpg);
+	background: url(https://res.cloudinary.com/rameshcloud/image/upload/v1468416572/age-finder/bg_qyswpr.jpg);
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -196,7 +196,7 @@ body {
 .loading {
 	display: none;
 	position: fixed;
-	background: url(http://rameshsyangtan.com.np/backup/robot-knows-ur-age/8.jpg) no-repeat;
+	background: url(https://res.cloudinary.com/rameshcloud/image/upload/v1468416571/age-finder/8_klxkmy.jpg) no-repeat;
 	background-size: 100% 100%;
 	height: 100%;
 	width: 100%;

@@ -13,6 +13,7 @@ $(document).ready(function() {
 	
 	$("#try-again").click(function(){
 		$(this).attr("href",window.location.href);
+		$(".wrong").hide();
 	});
 	// Generates one random operater between + and -
 	function GranOpOne() {				
@@ -92,7 +93,7 @@ $(document).ready(function() {
 	$(".next").click(function() {
 		if(step == 8) {
 			$(".third-show").hide();
-			$('.up img:first-child').attr('src','http://rameshsyangtan.com.np/backup/robot-knows-ur-age/7.gif');
+			$('.up img:first-child').attr('src','https://res.cloudinary.com/rameshcloud/image/upload/v1468416572/age-finder/7_pidnen.gif');
 			$(".final-show").fadeIn(1000);				
 		}
 		$(".step-count span").text(steps[step]);
